@@ -19,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="https://www.servicebund.de">
+            Button den man nutzen könnte für MKM Homepage oder wo anders hingelangen
           </Link>
         </div>
       </div>

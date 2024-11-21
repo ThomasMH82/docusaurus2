@@ -9,14 +9,14 @@ Erklärung wie man einen Artikel anlegt
 
 [def]:/img/anlegen_von_produkten/a_v_p_anlegen_1.png
 
-Sie gelangen entweder über die linke Menüleiste oder über das Dashboard in das Einkaufsmenü. 
+***Sie gelangen entweder über die linke Menüleiste oder über das Dashboard in das Einkaufsmenü.*** 
 
 
 ![Anlegen][def2]
 
 [def2]:/img/anlegen_von_produkten/a_v_p_anlegen_2.png
 
-Im Einkaufsmodul angekommen, können Sie oben links auf „Anlegen“ klicken, um Ihre Produkte anzulegen. 
+__Im Einkaufsmodul angekommen, können Sie oben links auf „Anlegen“ klicken, um Ihre Produkte anzulegen.__
 
 ![Name eingeben][def3]
 

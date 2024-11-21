@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'MyKitchen Manager Dokumentation',
   tagline: 'Tool für die GV',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -45,8 +45,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          /* editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/', */
         },
         blog: {
           showReadingTime: true,
@@ -56,8 +56,8 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          /* editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/', */
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -89,29 +89,29 @@ const config = {
             label: 'Dokumentation',
           },
           
-          {
+          /* {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          },
+          }, */
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'MyKitchen Manager',
             items: [
               {
                 label: 'Dokumentation',
-                to: '/docs/intro',
+                to: '/docs/MyKitchenManager',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Bla Bla Bla',
             items: [
-              {
+              /* {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
@@ -122,24 +122,28 @@ const config = {
               {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
-              },
+              }, */
             ],
           },
           {
-            title: 'More',
+            title: 'Mehr',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
+               {
+                label: 'Sander ',
+                href: 'https://shop.sander-gruppe.com',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Service Bund',
+                href: 'https://servicebund.de',
+              },
+              {
+                label: 'Anfang',
+                to: '/docs/MyKitchenManager'
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Service-Bund GmbH & Co. KG`,
       },
       prism: {
         theme: prismThemes.github,
