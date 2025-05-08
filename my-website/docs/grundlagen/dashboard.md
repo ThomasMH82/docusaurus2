@@ -11,4 +11,4 @@ sidebar_position: 1
 
 ![](/img/anlegen_von_produkten/a_v_p_anlegen_3.png)
 
-#### Hey ho
+## Hey ho
